@@ -38,7 +38,6 @@ const AboutSection = () => {
           }`}
         >
           <div className="mt-4 space-y-6">
-            {" "}
             {/* Added spacing here */}
             <h2 className="text-2xl font-semibold">Modules I Used</h2>
             <ul className="list-disc pl-5 mb-4">
@@ -76,7 +75,7 @@ const AboutSection = () => {
         <button
           onClick={toggleExpanded}
           className={`text-lg font-semibold transition-all duration-500 ease-in-out mt-${
-            isExpanded ? "4" : "-4"
+            isExpanded ? "4" : "0"
           } ${
             isExpanded ? "text-blue-500 hover:text-blue-700" : "text-blue-700"
           }`}

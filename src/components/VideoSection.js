@@ -11,8 +11,8 @@ const VideoSection = () => {
           <div className="flex-1">
             <h2 className="text-2xl font-semibold mb-4">Input Video</h2>
             <div
-              className="relative w-full rounded-lg overflow-hidden shadow-lg"
-              style={{ paddingTop: "56.25%" }}
+              className="relative w-full rounded-lg overflow-hidden shadow-lg bg-gray-200"
+              style={{ paddingTop: "56.25%" }} // 16:9 aspect ratio
             >
               <video
                 className="absolute top-0 left-0 w-full h-full object-cover"
@@ -27,8 +27,8 @@ const VideoSection = () => {
           <div className="flex-1">
             <h2 className="text-2xl font-semibold mb-4">Output Video</h2>
             <div
-              className="relative w-full rounded-lg overflow-hidden shadow-lg"
-              style={{ paddingTop: "56.25%" }}
+              className="relative w-full rounded-lg overflow-hidden shadow-lg bg-gray-200"
+              style={{ paddingTop: "56.25%" }} // 16:9 aspect ratio
             >
               <video
                 className="absolute top-0 left-0 w-full h-full object-cover"

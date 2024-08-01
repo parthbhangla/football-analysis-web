@@ -1,16 +1,20 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import VideoSection from "./components/VideoSection";
 import AboutSection from "./components/AboutSection";
+import VideoSection from "./components/VideoSection";
+import Footer from "./components/Footer"; // Import the Footer component
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
-      <AboutSection />
-      <VideoSection />
+      <main className="flex-1">
+        <AboutSection />
+        <VideoSection />
+      </main>
+      <Footer /> {/* Add the Footer component here */}
     </div>
   );
-};
+}
 
 export default App;

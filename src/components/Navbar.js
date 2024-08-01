@@ -14,7 +14,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
             className="text-lg hover:text-neutral-600 transition-all duration-300 transform hover:scale-105"
           >
-            GitHub
+            Code
           </a>
         </div>
         <button className="md:hidden text-neutral-800 focus:outline-none">
