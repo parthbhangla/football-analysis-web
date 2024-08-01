@@ -1,0 +1,23 @@
+/* Global CSS or Tailwind's custom CSS file */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(31, 41, 55, 0.7); /* Dark semi-transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  position: relative;
+  background: #f9fafb; /* Neutral-100 */
+  border-radius: 1rem; /* rounded-2xl */
+  padding: 2rem; /* p-8 */
+  max-width: 60rem; /* Custom width, adjust as needed */
+  width: 100%; /* Ensure it doesn't overflow */
+  margin: auto;
+}
