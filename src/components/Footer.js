@@ -8,8 +8,10 @@ const Footer = () => {
         <p className="mb-2">
           Credits &copy;{" "}
           <a
-            href="https://parthbhangla.vercel.app"
+            href="https://parthbhangla.vercel.app/"
             className="hover:text-linkHover"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Parth Bhangla
           </a>{" "}
@@ -17,7 +19,7 @@ const Footer = () => {
         </p>
         <div className="flex justify-center space-x-6">
           <a
-            href="https://twitter.com/yourusername"
+            href="https://x.com/parthbhangla"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-linkHover"
@@ -25,7 +27,7 @@ const Footer = () => {
             <FaTwitter className="w-6 h-6" />
           </a>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/parthbhangla"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-linkHover"
@@ -33,7 +35,7 @@ const Footer = () => {
             <FaGithub className="w-6 h-6" />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/parthbhangla/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-secondary hover:text-linkHover"
