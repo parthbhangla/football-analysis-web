@@ -15,7 +15,7 @@ const AboutSection = () => {
   }, [isExpanded]);
 
   return (
-    <section className="py-8 px-4">
+    <section className="py-8 px-4 bg-aboutBackground text-aboutText mt-6">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-2xl font-semibold mb-2">Introduction</h2>
         <p className="mb-4">
@@ -38,7 +38,6 @@ const AboutSection = () => {
           }`}
         >
           <div className="mt-4 space-y-6">
-            {/* Added spacing here */}
             <h2 className="text-2xl font-semibold">Modules I Used</h2>
             <ul className="list-disc pl-5 mb-4">
               <li>YOLO: AI object detection model</li>
@@ -77,7 +76,7 @@ const AboutSection = () => {
           className={`text-lg font-semibold transition-all duration-500 ease-in-out mt-${
             isExpanded ? "4" : "0"
           } ${
-            isExpanded ? "text-blue-500 hover:text-blue-700" : "text-blue-700"
+            isExpanded ? "text-primary hover:text-linkHover" : "text-primary"
           }`}
         >
           {isExpanded ? "Show Less" : "Show More"}

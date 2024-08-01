@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-neutral-100 text-neutral-800 shadow-lg">
+    <nav className="bg-navbarBackground text-secondary shadow-lg">
       <div className="container mx-auto flex justify-between items-center py-6 px-8">
         <div className="text-3xl font-extrabold font-sans">
           Football Analysis Project
@@ -12,12 +12,12 @@ const Navbar = () => {
             href="https://github.com/parthbhangla/football-analysis"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-lg hover:text-neutral-600 transition-all duration-300 transform hover:scale-105"
+            className="text-lg hover:text-linkHover transition-all duration-300 transform hover:scale-105"
           >
             Code
           </a>
         </div>
-        <button className="md:hidden text-neutral-800 focus:outline-none">
+        <button className="md:hidden text-secondary focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"

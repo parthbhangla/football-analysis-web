@@ -1,45 +1,44 @@
 import React from "react";
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-100 text-neutral-800 py-4">
-      <div className="container mx-auto flex flex-col items-center">
-        <p className="text-sm mb-2">
-          Credits ©{" "}
+    <footer className="bg-navbarBackground text-secondary py-4 mt-auto">
+      <div className="container mx-auto text-center">
+        <p className="mb-2">
+          Credits &copy;{" "}
           <a
             href="https://parthbhangla.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-800 transition-all duration-300"
+            className="hover:text-linkHover"
           >
             Parth Bhangla
           </a>{" "}
           2024
         </p>
-        <div className="flex space-x-6">
+        <div className="flex justify-center space-x-6">
           <a
-            href="https://x.com/parthbhangla"
+            href="https://twitter.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-800 transition-all duration-300"
+            className="text-secondary hover:text-linkHover"
           >
-            Twitter
+            <FaTwitter className="w-6 h-6" />
           </a>
           <a
-            href="https://github.com/parthbhangla"
+            href="https://github.com/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-800 transition-all duration-300"
+            className="text-secondary hover:text-linkHover"
           >
-            GitHub
+            <FaGithub className="w-6 h-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/parthbhangla/"
+            href="https://linkedin.com/in/yourusername"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-600 hover:text-gray-800 transition-all duration-300"
+            className="text-secondary hover:text-linkHover"
           >
-            LinkedIn
+            <FaLinkedin className="w-6 h-6" />
           </a>
         </div>
       </div>
